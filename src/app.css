@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+span {
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+.bgGrid {
+  background-size: 40px 40px;
+  background-image: linear-gradient(to right, gray 1px, transparent 1px),
+    linear-gradient(to bottom, gray 1px, transparent 1px);
+}
+
+button,
+.button {
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  font-family: inherit;
+  background-color: #fff;
+  border: 1px sold transparent;
+  transition: border-color 0.2s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.specialBtn {
+  border: 1px solid #646cff;
+}
+
+.specialBtnDark {
+  color: #fff;
+  background: #646cff;
+}
+
+.specialBtn:hover {
+  border: 1px solid blue;
+}
